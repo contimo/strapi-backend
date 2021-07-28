@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-benefits",
+      "handler": "product-benefit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-benefits/count",
+      "handler": "product-benefit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-benefits/:id",
+      "handler": "product-benefit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-benefits",
+      "handler": "product-benefit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-benefits/:id",
+      "handler": "product-benefit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-benefits/:id",
+      "handler": "product-benefit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

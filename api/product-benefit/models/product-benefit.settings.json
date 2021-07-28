@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_benefits",
+  "info": {
+    "name": "Product Benefit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "via": "product_benefits",
+      "collection": "product"
+    }
+  }
+}
